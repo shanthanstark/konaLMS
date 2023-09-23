@@ -1,0 +1,56 @@
+.td{
+    width: 200px;
+    height: 200px;
+}
+
+tr,td{
+    padding: 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-collapse: separate;
+    empty-cells: hide;
+}
+ th,td{
+    height: 50px;
+    border: solid black 2px ;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+
+thead th:nth-child(1){
+    background-color: rgb(151, 126, 176);
+}
+thead th:nth-child(2){
+    background-color: rgb(111, 109, 174);
+}
+thead th:nth-child(3){
+    background-color: rgb(126, 176, 147);
+}
+tbody tr:nth-child(1){
+    background-color: aqua;
+}
+
+tr:nth-child(2){
+    background-color:rgb(248, 239, 239);
+}
+tr:nth-child(3){
+    background-color: beige;
+}
+tfoot tr:nth-child(1){
+    background-color: rgb(185, 207, 159);
+}
+
+thead th:hover{
+    background-color: cornflowerblue;
+}
+
+tbody td:hover{
+    background-color: cornflowerblue;
+}
+
+tfoot td:hover{
+    background-color: cornflowerblue;
+}
